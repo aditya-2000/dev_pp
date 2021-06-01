@@ -1,0 +1,26 @@
+{
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.9",
+    "puppeteer": "^9.1.1",
+    "request": "^2.88.2"
+  },
+  "name": "dev_pp",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aditya-2000/dev_pp.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aditya-2000/dev_pp/issues"
+  },
+  "homepage": "https://github.com/aditya-2000/dev_pp#readme",
+  "description": ""
+}
