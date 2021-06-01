@@ -21,6 +21,14 @@ browserpromise.then(function(browser){
    return tab.type("#input-2",pass);
 }).then(function(){
    return  tab.click(".ui-btn.ui-btn-large.ui-btn-primary.auth-button.ui-btn-styled");
-})
+}).then(function(){
+   return tab.waitForSelector("#base-card-1-link",{visible:true});
+}).then(function(){
+    return tab.click("#base-card-1-link");
+}).then(function(){
+    return tab.waitForSelector('a[data-attr1="warmup"]',{visible:true});
+ }).then(function(){
+     return tab.click('a[data-attr1="warmup"]');
+ })
 
 
